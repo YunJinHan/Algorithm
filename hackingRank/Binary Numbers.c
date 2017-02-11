@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define max(a,b) ((a)>(b) ? (a) : (b))
+#define max(a,b)  ((a)>(b) ? (a) : (b))
 
 int main(void) {
 	int n,i,j,tmp;
