@@ -3,8 +3,7 @@ def fun(s):
     if '@' in s and '.' in s and s.index('@')<s.index('.'):
         username=s[:s.index('@')]
         websitename=s[s.index('@')+1:s.index('.')]
-        extension=s[s.index('.')+1:]
-        
+        extension=s[s.index('.')+1:] 
         if (username.isalnum() or '_' in username or '-' in username) and websitename.isalnum() and len(extension)<=3:
             lis.append(s)
             
