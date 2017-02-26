@@ -5,6 +5,7 @@ int main(void) {
 	int T,test_case;
 	scanf("%d",&T);
 	int ans[T][T];
+	
 	for (test_case = 0; test_case < T; test_case ++) {
 		scanf("%d",&ans[test_case][0]);
 		ans[test_case][1] = 1;
